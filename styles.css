@@ -1637,7 +1637,7 @@ body.dark .player {
     font-size: 12px;
   }
   .player-surah {
-    display: grid;
+    display: none;
     width: 44px;
     height: 44px;
     border-radius: 11px;
