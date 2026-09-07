@@ -2493,6 +2493,7 @@ input,select {
   text-align: start;
   cursor: pointer;
   scroll-margin-block: 6px;
+  font-size: 12px;
 }
 .custom-select-option:hover,
 .custom-select-option:focus-visible {
