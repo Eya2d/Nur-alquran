@@ -252,6 +252,11 @@ main {
 .menu-button {
   display: none;
 }
+#menuButton svg {
+  width: 24px !important;
+  height: 24px !important;
+}
+
 .page {
   display: none;
   padding: 36px 4.5% 120px;
@@ -440,6 +445,14 @@ main {
   font: 600 10px var(--font-ui);
   cursor: pointer;
 }
+[dir="rtl"] .text-button, [dir="rtl"] .has-icon {
+  direction: ltr;
+}
+
+[dir="ltr"] .text-button, [dir="ltr"] .has-icon {
+  direction: rtl;
+}
+
 .prayer-row {
   height: 52px;
   display: flex;
