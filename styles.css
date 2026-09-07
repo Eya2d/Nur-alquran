@@ -952,6 +952,13 @@ main {
 .reciter-card h3 {
   font-size: 12px;
   margin: 10px 0 4px;
+  font-weight: 400;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  max-width: 100%;
 }
 .reciter-card p {
   font-size: 8px;
