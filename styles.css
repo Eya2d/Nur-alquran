@@ -66,6 +66,10 @@ img {
   height: 20px;
 }
 
+#closeLocationModal:active, .outline-button:active, .icon-button:active svg, .back-button:active svg {
+  opacity: .7;
+}
+
 .app-shell {
   min-height: 100vh;
 }
