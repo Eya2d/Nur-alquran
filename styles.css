@@ -2021,7 +2021,7 @@ body.dark .player {
   padding: 14px 4.5% 28px;
   text-align: center;
   color: var(--muted);
-  font-size: 8px;
+  font-size: 10px;
 }
 .source-credit a {
   color: var(--green-2);
@@ -2044,7 +2044,7 @@ body.dark .player {
   }
   .source-credit {
     margin-inline-start: 0;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
   }
   .toast {
     left: 14px;
