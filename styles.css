@@ -894,6 +894,13 @@ main {
   user-select: none;
   background: var(--surface);
 }
+.ayah-badge a {
+  background-image: url(./icons/Qr.png);
+  background-size: cover;
+  position: absolute;
+  padding: 20px;
+}
+
 .ayah-text .ayah-unit {
   display: inline;
   transition: background-color 0.4s;
