@@ -844,6 +844,18 @@ main {
 .dark .back-button, .dark .outline-button {
   background: #1d3f35;
 }
+.reader-top .icon-button, .reader-top .back-button {
+  width: 43px;
+  height: 43px;
+}
+.back-button span {
+  display: none;
+}
+.back-button svg {
+  width: 20px;
+  height: 20px;
+}
+
 .mushaf {
   max-width: 900px;
   margin: auto;
