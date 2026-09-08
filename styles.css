@@ -979,6 +979,13 @@ main {
   width: 2.10em;
   height: 2.10em;
 }
+[dir="rtl"] .reciter-card button {
+  direction: rtl;
+}
+[dir="ltr"] .reciter-card button {
+  direction: ltr;
+}
+
 .prayer-hero {
   background: linear-gradient(120deg,#163f33,#23664f);
   color: white;
