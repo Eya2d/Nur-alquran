@@ -942,6 +942,11 @@ main {
   padding: 22px 16px;
   text-align: center;
   transition: .2s;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
 }
 .reciter-card .avatar {
   user-select: none;
