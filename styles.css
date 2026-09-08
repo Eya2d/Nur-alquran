@@ -617,6 +617,7 @@ main {
   box-shadow: var(--shadow);
 }
 .avatar {
+  user-select: none;
   width: 64px;
   height: 64px;
   margin: auto auto 10px;
