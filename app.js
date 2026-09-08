@@ -1029,7 +1029,7 @@ async function openSurah(number, { focusAyahNumber = null } = {}) {
       // نحذف نسخة البسملة المدمجة في نص الآية الأولى عندما نعرض عنوان البسملة المستقل، لتفادي ظهورها مرتين؛
       // في الفاتحة نُبقي آيتها الأولى كما هي لأنها البسملة ذاتها ولا عنوان مستقل يرافقها
       const text = (idx === 0 && showHeader) ? stripLeadingBismillah(a.text) : a.text;
-      return `<span class="ayah-unit" tabindex="0" data-ayah-number="${a.numberInSurah}" data-global-ayah="${a.number}" data-juz="${a.juz}">${text} <span class="ayah-badge">${eastern(a.numberInSurah)}</span></span>`;
+      return `<span class="ayah-unit" tabindex="0" data-ayah-number="${a.numberInSurah}" data-global-ayah="${a.number}" data-juz="${a.juz}">${text} <span class="ayah-badge"><a></a>${eastern(a.numberInSurah)}</span></span>`;
     }).join(' ') + '</p>';
     ayahText.querySelectorAll('.ayah-unit').forEach(unit => {
       const openActions = event => {
