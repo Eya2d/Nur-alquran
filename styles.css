@@ -75,6 +75,7 @@ img {
 }
 .sidebar {
   position: fixed;
+  overflow: auto;
   z-index: 100;
   inset-block: 0;
   inset-inline: 0 auto;
