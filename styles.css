@@ -203,7 +203,7 @@ main {
   backdrop-filter: blur(14px);
   position: sticky;
   top: 0;
-  z-index: 20;
+  z-index: 30;
 }
 .top-date b,.top-date span {
   display: block;
