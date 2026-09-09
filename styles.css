@@ -897,8 +897,8 @@ main {
   line-height: 0;
   align-items: center;
   font-family: system-ui;
-  width: 31px;
-  height: 31px;
+  width: 32px;
+  height: 32px;
   font-size: 14px;
   color: var(--green);
   border: 1px solid var(--gold);
